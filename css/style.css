@@ -1,0 +1,150 @@
+/* specific commands for current project */
+
+.nevbar {
+    width: 1900px;
+    height: 100px;
+}
+
+.nev-item {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-2 {
+    width: 240px;
+    height: 100px;
+    border-right: 1px solid #eaeaea;
+
+}
+
+.col-6 {
+    width: 1360px;
+    height: 100px;
+    margin-left: 15px;
+    display: flex;
+    border-right: 1px solid #eaeaea;
+    list-style: none;
+}
+
+.col-2 img {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 160px;
+    height: 70px;
+}
+
+.col-3 {
+    cursor: pointer;
+    width: 320px;
+    height: 100px;
+}
+
+.col-6 li {
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 45px;
+    color: #253745;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: flex;
+    position: relative;
+}
+
+.col-6>li i {
+    margin-right: 0px;
+    margin-top: 2px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.col-6 i {
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #2b3e4b;
+    margin-right: 40px;
+    margin-top: 45px;
+    margin-left: 770px;
+}
+
+.col-3 i {
+    margin-left: 25px;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+.col-3 button {
+    margin-left: 50px;
+    width: 205px;
+    height: 100px;
+    border-width: 0px;
+    transition: ease-out 0.3s;
+    cursor: pointer;
+    background-color: #32c36c;
+    color: white
+}
+
+.col-3 button:hover {
+    box-shadow: inset 400px 0 0 0 #2b3e4b;
+}
+
+.col-3 i:hover {
+    color: #32c36c;
+}
+
+.col-6 li:hover,
+.col-6 i:hover {
+    color: #32c36c;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.col-6>li ul {
+    padding-inline-start: 0px;
+    top: 30%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .2s all ease-in;
+    cursor: pointer;
+    position: absolute;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: #eaeaea;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.col-6>li:hover ul,
+.submenu:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.col-6>li ul>li {
+    width: 150px;
+    margin: 0px;
+    margin-top: 25px;
+}
+
+.fa-cart-shopping{
+    position: relative;
+}
+
+.fa-cart-shopping sup{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    text-align: center;
+    right: -8px;
+    top: -8px;
+    font-size: 10px;
+    color: white;
+    background-color: #32c36c;
+    border-radius: 100%;
+    padding: 3px;
+}

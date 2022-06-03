@@ -1,0 +1,7 @@
+/* Reset all html tags */
+
+body,ul,li{
+    margin: 0px;
+    padding: 0px;
+    font-size: inherit;
+}
